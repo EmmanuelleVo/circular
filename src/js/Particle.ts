@@ -35,6 +35,8 @@ export class Particle {
         this.position.y = this.center.y + Math.sin(this.radian) * this.distanceCircle;
         this.radian += this.speed;
         this.draw()
+
+
     }
 
 }
